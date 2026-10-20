@@ -1,0 +1,44 @@
+{
+  "TaskName": "Overt speech",
+  "PowerLineFrequency": 50.0,
+  "SamplingFrequency": 512.0,
+  "SoftwareFilters": {
+    "BandpassFilter": {
+      "HighpassCutoffHz": 1.0,
+      "LowpassCutoffHz": 100.0
+    },
+    "LineNoiseRemoval": {
+      "Method": "notch",
+      "FrequenciesHz": [
+        50.0
+      ]
+    }
+  },
+  "RecordingType": "continuous",
+  "EEGReference": "average",
+  "EEGGround": "AFz",
+  "EEGPlacementScheme": "based on the extended 10/20 system",
+  "HardwareFilters": "n/a",
+  "ManufacturersModelName": "eego sports",
+  "SoftwareVersions": "ROS-Neuro (version not recorded)",
+  "DeviceSerialNumber": "n/a",
+  "CapManufacturer": "ANT Neuro",
+  "CapManufacturersModelName": "64-channel waveguard original cap",
+  "SubjectArtefactDescription": "n/a",
+  "TaskDescription": "Participants listened to 20 synthesized sentences while reading them on screen, repeated each sentence aloud, and then produced a paced overt syllabification supported by phonetic syllable cues.",
+  "Instructions": "You will repeat 20 sentences. Each sentence will appear on the screen while it is played by a speech synthesizer. When playback ends, you will have three seconds to finish reading and prepare to repeat it. When the sentence disappears from the screen, you will have five seconds to repeat it aloud. You will then repeat it again, this time syllabifying at the prescribed pace. The syllables will appear on the screen to assist you. Pay attention: the notation is phonetic, so some syllables may look different from what you expect.",
+  "InstitutionName": "University of Padova",
+  "InstitutionAddress": "Via Gradenigo 6/b, 35131 Padova, Italy",
+  "InstitutionalDepartmentName": "Department of Information Engineering (DEI)",
+  "Manufacturer": "ANT Neuro",
+  "Sources": [
+    "bids:raw:sub-04/ses-01/eeg/sub-04_ses-01_task-overt_run-03_eeg.vhdr"
+  ],
+  "Description": "Continuous preprocessed EEG after reviewed channel harmonization and condition-level Extended Infomax ICA. Rejected components: 0, 1, 2, 3, 7, 8, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 24, 26, 28, 29, 32, 35, 36, 39, 40.",
+  "EEGChannelCount": 59,
+  "EOGChannelCount": 1,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0
+}

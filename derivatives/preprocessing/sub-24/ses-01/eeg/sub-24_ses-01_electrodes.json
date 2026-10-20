@@ -1,0 +1,6 @@
+{
+  "Description": "Electrode coordinates propagated unchanged from the linked raw dataset.",
+  "Sources": [
+    "bids:raw:sub-24/ses-01/eeg/sub-24_ses-01_electrodes.tsv"
+  ]
+}

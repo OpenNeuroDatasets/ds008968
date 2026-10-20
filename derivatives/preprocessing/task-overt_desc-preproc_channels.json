@@ -1,0 +1,10 @@
+{
+  "Description": "Channel metadata for the final continuous preprocessed EEG.",
+  "interpolated": {
+    "Description": "Whether the published channel signal was interpolated condition-wide after reviewed run-level channel QC.",
+    "Levels": {
+      "true": "Channel was interpolated.",
+      "false": "Channel was not interpolated."
+    }
+  }
+}

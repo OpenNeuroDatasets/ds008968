@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "source": "raw",
+  "datasets": [
+    {
+      "name": "covert_cue",
+      "description_label": "covertcue",
+      "task": "covert",
+      "event_type": "syllabification_cue",
+      "include_audio": false
+    },
+    {
+      "name": "overt_cue",
+      "description_label": "overtcue",
+      "task": "overt",
+      "event_type": "syllabification_cue",
+      "include_audio": false
+    },
+    {
+      "name": "overt_production",
+      "description_label": "overtproduction",
+      "task": "overt",
+      "event_type": "syllabification_syllable",
+      "pair_reference_event_type": "syllabification_cue",
+      "include_audio": false
+    }
+  ],
+  "eeg": {
+    "tmin": -0.3,
+    "tmax": 0.6,
+    "picks": "eeg",
+    "exclude_bad_overlap": true,
+    "bad_annotation_source": "auto",
+    "baseline": null,
+    "detrend": null,
+    "units": "V",
+    "dtype": "float32"
+  },
+  "preprocessing": {
+    "filter_phase": "causal",
+    "l_freq": 2,
+    "h_freq": 70,
+    "notch_freqs": [
+      50
+    ],
+    "resample_sfreq": 512,
+    "reference": null,
+    "operation_order": [
+      "resample",
+      "bandpass",
+      "notch",
+      "reference"
+    ]
+  },
+  "audio": {
+    "enabled": false,
+    "extract_embeddings": false,
+    "sampling_frequency": "native",
+    "channel_policy": "mono"
+  },
+  "hdf5": {
+    "compression": "gzip",
+    "compression_level": 4,
+    "shuffle": true
+  },
+  "selection": {
+    "subjects": [
+      "sub-01",
+      "sub-02",
+      "sub-03",
+      "sub-04",
+      "sub-05",
+      "sub-06",
+      "sub-07",
+      "sub-08",
+      "sub-09",
+      "sub-10",
+      "sub-11",
+      "sub-12",
+      "sub-13",
+      "sub-14",
+      "sub-15",
+      "sub-16",
+      "sub-17",
+      "sub-18",
+      "sub-19",
+      "sub-20",
+      "sub-21",
+      "sub-22",
+      "sub-23",
+      "sub-24",
+      "sub-25"
+    ]
+  }
+}
