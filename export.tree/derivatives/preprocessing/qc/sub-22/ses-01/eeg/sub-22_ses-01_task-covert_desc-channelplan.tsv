@@ -1,8 +1,0 @@
-channel	condition_decision	interpolate_triggering_runs	exclude_triggering_runs
-AF3	interpolate	run-03	
-AF4	interpolate	run-03	
-C5	interpolate	run-01;run-02;run-03	
-FP2	interpolate	run-01;run-02;run-03	
-FT7	interpolate	run-01;run-02;run-03	
-T7	interpolate	run-01;run-02;run-03	
-T8	interpolate	run-01;run-02;run-03	

@@ -1,9 +1,0 @@
-{
-  "Name": "Spell-IT-OUT syllable-segment datasets",
-  "Format": "BIDS-derived HDF5 (non-standard analysis artifact)",
-  "SchemaVersion": "1.0",
-  "SourceBIDSRoot": "D:\\SHARED\\PhD\\data\\spell-it-out\\data\\spellitout",
-  "SourceType": "raw",
-  "BuildConfigSHA256": "db4bad88e647cf6cd2c82a45d1d5b9ff2e88ff01135700240a68eb9f0a4eace5",
-  "Description": "Fixed-window EEG segments aligned to syllable events, with phonetic labels."
-}
