@@ -28,5 +28,7 @@
         }
     ],
     "DatasetDOI": "doi:10.18112/openneuro.ds008968.v1.0.0",
-    "Funding": []
+    "Funding": [
+        "This publication is part of the project PNRR-NGEU which has received funding from the MUR–DM 118/2023"
+    ]
 }
