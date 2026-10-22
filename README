@@ -145,7 +145,7 @@ are written as `n/a`.
 ## Getting started
 
 The `spellitout` Python package loads the dataset through MNE-BIDS:
-<https://github.com/Curtaz/spell-it-out>.
+<https://github.com/neurorobotics-iaslab/spell-it-out>.
 
 ```python
 from spellitout import SpellItOutDataset
