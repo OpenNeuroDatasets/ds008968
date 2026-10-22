@@ -1,0 +1,31 @@
+{
+    "Name": "Spell-IT-Out",
+    "BIDSVersion": "1.11.1",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Tommaso Cortecchia",
+        "Stefano Tortora",
+        "Jeff Kiesner",
+        "Emanuele Menegatti",
+        "Luca Tonin"
+    ],
+    "Acknowledgements": "This publication is part of the project PNRR-NGEU which has received funding from the MUR–DM 118/2023",
+    "EthicsApprovals": [
+        "The study was approved by the Ethics Committee for Psychological Research, Area 17,  at the University of Padua (ref. code 1801-a)"
+    ],
+    "Keywords": [
+        "EEG",
+        "speech production",
+        "imagined speech",
+        "syllabification"
+    ],
+    "GeneratedBy": [
+        {
+            "Name": "MNE-BIDS",
+            "Version": "0.17.0",
+            "CodeURL": "https://mne.tools/mne-bids/"
+        }
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds008968.v1.1.0"
+}

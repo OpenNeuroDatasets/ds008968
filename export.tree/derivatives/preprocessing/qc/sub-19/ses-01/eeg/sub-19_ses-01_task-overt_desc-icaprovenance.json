@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "source_runs": [
+    "run-01",
+    "run-02",
+    "run-03"
+  ],
+  "line_noise": {
+    "method": "notch",
+    "frequency_hz": 50.0
+  },
+  "approved_bad_span_policy": "Omitted from Extended Infomax fitting; retained as annotations in the Infomax-input FIF.",
+  "condition_interpolated_channels": [
+    "AF4",
+    "FP2",
+    "FT8",
+    "T7",
+    "T8"
+  ],
+  "condition_excluded_channels": [],
+  "reference": "average EEG reference after condition-level channel harmonization",
+  "infomax": {
+    "line_noise_method": "notch",
+    "line_frequency_hz": 50.0,
+    "max_iter": 5000,
+    "w_change": 1e-12,
+    "random_state": 435656,
+    "rank_tolerance": 1e-07,
+    "max_unmixing_condition": 1000000.0,
+    "method": "infomax",
+    "extended": true,
+    "n_components": 53,
+    "mne_rank_estimate": 53,
+    "n_fit_samples": 1069234,
+    "n_iterations": 156,
+    "iterations_executed": 156,
+    "final_learning_rate": 5.578547939177917e-09,
+    "final_w_change": 3.956545582424119e-12,
+    "final_angle_deg": 53.107039695978315,
+    "stopped_before_max_iter": true,
+    "converged": true,
+    "convergence_status": "small_angle",
+    "convergence_note": "iterations_executed and final optimization values were captured from the MNE Infomax step logger before its ambiguous n_iter_ conversion.",
+    "unmixing_condition": 35.103300099717856
+  }
+}
