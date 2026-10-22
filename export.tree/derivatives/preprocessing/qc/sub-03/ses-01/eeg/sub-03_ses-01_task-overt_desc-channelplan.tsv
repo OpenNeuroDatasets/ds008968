@@ -1,4 +1,0 @@
-channel	condition_decision	interpolate_triggering_runs	exclude_triggering_runs
-AF4	interpolate	run-02	
-T7	interpolate	run-01;run-02	
-T8	interpolate	run-01;run-02	
