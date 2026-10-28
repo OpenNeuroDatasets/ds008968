@@ -1,0 +1,4 @@
+channel	condition_decision	interpolate_triggering_runs	exclude_triggering_runs
+C4	interpolate	run-01;run-02;run-03	
+FC6	interpolate	run-01;run-02	
+OZ	interpolate	run-03	

@@ -1,0 +1,11 @@
+Spell-IT-OUT preprocessing audit trail
+======================================
+
+These project-specific tables preserve the complete human-review record.
+annotationsqc: automatic candidates and manual artifact annotations with review decisions.
+channelqc: PyPREP evidence and final manual channel decisions.
+channelplan: condition-level interpolation/exclusion plan used for ICA.
+icadecisions: ICLabel evidence and final component decisions.
+icaprovenance: exact ICA preparation, rank, convergence, and fit metadata.
+
+Paths referring to minproc or ICA-input checkpoints identify working pipeline artifacts that are reproducible but not included in this release.
